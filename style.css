@@ -14,7 +14,7 @@ body {
   
   .tagline {
     width: 70%;
-    height: 86px;
+    height: 60px;
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -32,7 +32,7 @@ body {
   .logo {
     width: 70%;
     margin-left: 15%;
-    height: 100px;
+    height: 80px;
     background: #36280a;
   }
   
