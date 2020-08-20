@@ -1,7 +1,8 @@
 // const classifier = ml5.imageClassifier(model, ?video, ?options, ?callback);
 
 const { ml5 } = window;
-const classifier = ml5.imageClassifier('MobileNet', console.log);
+const classifier = ml5.imageClassifier('https://storage.googleapis.com/tm-model/sVCV67PMt/model.json', console.log);
+// const classifier = ml5.imageClassifier('https://storage.googleapis.com/tm-model/y_HLEWA9X/model.json', console.log);
 
 
 const image = document.querySelector(".image");
